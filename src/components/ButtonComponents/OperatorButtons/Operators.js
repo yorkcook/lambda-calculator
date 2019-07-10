@@ -16,8 +16,8 @@ const Operators = props => {
        it any props needed by the child component*/}
       {operatorsAll.map(operators => (
         <OperatorButton
-          operators={operators.value}
-          setOperation={props.setOperation}
+          operators={operators}
+          mathOperation={props.mathOperation}
         />
       ))}
     </div>

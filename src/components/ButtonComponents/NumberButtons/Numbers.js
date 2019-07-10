@@ -17,7 +17,7 @@ const Numbers = props => {
        component matching the name on the provided file. Pass
        it any props needed by the child component*/}
       {numbersAll.map(numbers => (
-        <NumberButton numbers={numbers} setFirstNumber={props.setFirstNumber} />
+        <NumberButton numbers={numbers} addInput={props.addInput} />
       ))}
     </div>
   );

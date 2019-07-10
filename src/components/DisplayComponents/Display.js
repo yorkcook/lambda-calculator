@@ -5,6 +5,7 @@ const Display = props => {
     <div>
       {/* Display any props data here */}
       {props.firstNumber}
+      {props.operation}
     </div>
   );
 };
